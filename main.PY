@@ -15,3 +15,8 @@ while opcion != "4":
     # PASO 3: Agregar deposito, retiro y consulta con IF/ELIF/ELSE
     if opcion == "1":
         print("Su saldo actual es: $", saldo_inicial)
+        
+    # PASO 4: Mostrar historial con ciclo FOR 
+        print("Historial de movimientos:")
+        for movimiento in lista_de_operaciones_realizadas:
+            print("-", movimiento)
