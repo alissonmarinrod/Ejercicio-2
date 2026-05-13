@@ -12,3 +12,6 @@ while opcion != "4":
     print("4. Salir del programa")
     
     opcion = input("Elija una opcion (1-4): ")
+    # PASO 3: Agregar deposito, retiro y consulta con IF/ELIF/ELSE
+    if opcion == "1":
+        print("Su saldo actual es: $", saldo_inicial)
